@@ -1,0 +1,125 @@
+@font-face{
+    font-family: 'Roboto-Light';
+    src:url('font/Roboto-Light.ttf');
+}
+@font-face{
+    font-family: 'Roboto-Bold';
+    src:url('font/Roboto-Bold.ttf');
+}
+*{
+    margin:0;
+    padding:0;
+}
+
+.wrapper{
+    background-image: url('img/bg.png');
+    z-index: 999;
+    padding-bottom:200px;
+    
+}
+
+.header-background{
+    background-image: url("/img/view.png");
+    padding-bottom:20px;
+}
+.wrapper-container{
+    max-width:960px;
+    margin: 0 auto;
+    font-family: 'Roboto-Light';
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top:40px;
+}
+.contacts{
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.contacts>h1{
+    font-size: 48px;
+    font-weight: 100;
+}
+
+.info{
+    padding-top:15px;
+    font-family: 'Roboto-Bold';
+    font-size: 12px;
+
+}
+
+.comments{
+    padding-top:35px;
+    padding-bottom:30px;
+    border-bottom: 1px solid rgb(218, 216, 216);
+}
+.comment-container{
+    margin-bottom:25px;
+}
+.comment-header{
+    display: flex;
+    align-items: flex-end;
+    font-family: 'Roboto-Light';
+    font-size: 12px;
+    margin-bottom:15px;
+}
+
+.name{
+    font-size: 18px;
+    font-family: 'Roboto-Bold';
+}
+
+.margin-right{
+    margin-right:40px;
+}
+.margin-right2{
+    margin-right: 10px;
+}
+
+.padding-bottom{
+    padding-bottom:10px;
+}
+
+.form{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    padding-top:25px;
+}
+
+.form button{
+    display:block;
+    position: relative;
+    margin-left:auto;
+    padding:12px 18px;
+    border:2px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    color:black;
+    font-size: 18px;
+}
+
+.form p{
+    padding:25px 0 12px 0;
+}
+
+.inputName{
+    width:100%;
+    border:0;
+    padding:5px 0;
+}
+
+.textarea{
+    width:100%;
+    height:130px;
+    border:2px solid black;
+    margin-bottom: 10px;
+}
+
+.underline{
+    text-decoration: underline;
+}
